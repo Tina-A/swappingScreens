@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		8EFDE8171EAFCB650011FE08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFDE8161EAFCB650011FE08 /* AppDelegate.swift */; };
-		8EFDE8191EAFCB650011FE08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFDE8181EAFCB650011FE08 /* ViewController.swift */; };
+		8EFDE8191EAFCB650011FE08 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFDE8181EAFCB650011FE08 /* LoginVC.swift */; };
 		8EFDE81C1EAFCB650011FE08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFDE81A1EAFCB650011FE08 /* Main.storyboard */; };
 		8EFDE81E1EAFCB650011FE08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EFDE81D1EAFCB650011FE08 /* Assets.xcassets */; };
 		8EFDE8211EAFCB650011FE08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFDE81F1EAFCB650011FE08 /* LaunchScreen.storyboard */; };
+		8EFDE8291EAFD6DE0011FE08 /* MusicListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFDE8281EAFD6DE0011FE08 /* MusicListVC.swift */; };
+		8EFDE82B1EAFE0EB0011FE08 /* PlaySongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFDE82A1EAFE0EB0011FE08 /* PlaySongVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8EFDE8131EAFCB650011FE08 /* swappingScreens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swappingScreens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EFDE8161EAFCB650011FE08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8EFDE8181EAFCB650011FE08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8EFDE8181EAFCB650011FE08 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		8EFDE81B1EAFCB650011FE08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8EFDE81D1EAFCB650011FE08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EFDE8201EAFCB650011FE08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EFDE8221EAFCB650011FE08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EFDE8281EAFD6DE0011FE08 /* MusicListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListVC.swift; sourceTree = "<group>"; };
+		8EFDE82A1EAFE0EB0011FE08 /* PlaySongVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				8EFDE8161EAFCB650011FE08 /* AppDelegate.swift */,
-				8EFDE8181EAFCB650011FE08 /* ViewController.swift */,
+				8EFDE8181EAFCB650011FE08 /* LoginVC.swift */,
 				8EFDE81A1EAFCB650011FE08 /* Main.storyboard */,
 				8EFDE81D1EAFCB650011FE08 /* Assets.xcassets */,
 				8EFDE81F1EAFCB650011FE08 /* LaunchScreen.storyboard */,
 				8EFDE8221EAFCB650011FE08 /* Info.plist */,
+				8EFDE8281EAFD6DE0011FE08 /* MusicListVC.swift */,
+				8EFDE82A1EAFE0EB0011FE08 /* PlaySongVC.swift */,
 			);
 			path = swappingScreens;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EFDE8191EAFCB650011FE08 /* ViewController.swift in Sources */,
+				8EFDE8291EAFD6DE0011FE08 /* MusicListVC.swift in Sources */,
+				8EFDE82B1EAFE0EB0011FE08 /* PlaySongVC.swift in Sources */,
+				8EFDE8191EAFCB650011FE08 /* LoginVC.swift in Sources */,
 				8EFDE8171EAFCB650011FE08 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
